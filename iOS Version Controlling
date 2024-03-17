@@ -2,3 +2,5 @@
 %- The first change that is observed is the usage of the '.onChange' in the syntax.
 %`.onChange' is the command line that has made us change the iOS 17 to iOS 16.4 for our built because the command is deprecated in iOS17.
 % TeX commenting criterion for typing the commented section is used.
+% Filtration and unique identificaiton (related to the objects present in the user interface) both can be directly completed through the '.onChange' command.
+% The '.onChange' command is helpful in redefining the variables already used in the syntax and addition in the defined variable is also possible through the + symbol.
