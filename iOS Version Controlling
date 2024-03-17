@@ -1,0 +1,4 @@
+%iOS version controlling and its relation to the usage of the compiler (Xcode) and the acceptable command lines will be discussed:
+%- The first change that is observed is the usage of the '.onChange' in the syntax.
+%`.onChange' is the command line that has made us change the iOS 17 to iOS 16.4 for our built because the command is deprecated in iOS17.
+% TeX commenting criterion for typing the commented section is used.
