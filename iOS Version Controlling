@@ -4,3 +4,6 @@
 % TeX commenting criterion for typing the commented section is used.
 % Filtration and unique identificaiton (related to the objects present in the user interface) both can be directly completed through the '.onChange' command.
 % The '.onChange' command is helpful in redefining the variables already used in the syntax and addition in the defined variable is also possible through the + symbol.
+
+%The command 'init(coordinateRegion::interactionModes:showsUserLocation:userTrackingMode:)' and its bounded value (by the $ symbol in the argument) of the command 
+% 'Map (coordinateRegion:$mapRegion) can be replaced by using the other Map initializers that take the 'MapContentBuilder' construct.
