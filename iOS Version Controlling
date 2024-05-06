@@ -7,3 +7,5 @@
 
 %The command 'init(coordinateRegion::interactionModes:showsUserLocation:userTrackingMode:)' and its bounded value (by the $ symbol in the argument) of the command 
 % 'Map (coordinateRegion:$mapRegion) can be replaced by using the other Map initializers that take the 'MapContentBuilder' construct.
+        %Further details
+            %The file can be compiled and the installation instructions can be easily availed for the installation of the application with the full installation and 
