@@ -40,10 +40,7 @@
   %                                            span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
         %                                              
          %                                     
-      %//Do you still like commenting? Yes. Why have you not prepared the workbook? What will that workbook do? It has to have the syntax that can be compiled by using Playgrounds. Try the current syntax by pasting it in Playgrounds.
-                                              
-                                              
-    %// The availability of '293' documented
+                                                                               
                                               
     %)
     %var body: some View {
@@ -63,4 +60,4 @@
     %}
 %}
 
-%The command line 57 is discussed
+%The command line 57 is discussed.
