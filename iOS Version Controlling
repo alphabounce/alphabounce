@@ -8,4 +8,59 @@
 %The command 'init(coordinateRegion::interactionModes:showsUserLocation:userTrackingMode:)' and its bounded value (by the $ symbol in the argument) of the command 
 % 'Map (coordinateRegion:$mapRegion) can be replaced by using the other Map initializers that take the 'MapContentBuilder' construct.
         %Further details
-            %The file can be compiled and the installation instructions can be easily availed for the installation of the application with the full installation and 
+            %The file can be compiled and the installation instructions can be easily availed for the installation of the application.
+
+                        %Consider the following syntax:\\
+
+%struct ContentView: View {
+ %       var body: some View {
+  %          Map {
+   %             Marker("San Francisco City Hall", coordinate: cityHallLocation)
+    %                .tint(.orange)
+     %           Marker("San Francisco Public Library", coordinate: publicLibraryLocation)
+      %              .tint(.blue)
+       %         Annotation("Diller Civic Center Playground", coordinate: playgroundLocation) {
+        %            ZStack {
+         %               RoundedRectangle(cornerRadius: 5)
+          %                  .fill(Color.yellow)
+           %             Text("🛝")
+            %                .padding(5)
+             %       }
+              %  }
+            %}
+            %.mapControlVisibility(.hidden)
+        %}
+    %}
+
+%Now consider the following syntax:
+
+%struct ConcuMap: View {
+    
+ %   @State var mapRegion = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: -37.617717, longitude: 144.717181),
+  %                                            span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
+        %                                              
+         %                                     
+      %//Do you still like commenting? Yes. Why have you not prepared the workbook? What will that workbook do? It has to have the syntax that can be compiled by using Playgrounds. Try the current syntax by pasting it in Playgrounds.
+                                              
+                                              
+    %// The availability of '293' documented
+                                              
+    %)
+    %var body: some View {
+     %   VStack {
+      %      Image(systemName: "mappin")
+       %         .imageScale(.large)
+        %        .foregroundColor(.accentColor)
+         %   Text("Maps")
+          %      .foregroundColor(Color(red: 0.296, green: 0.571, blue: 0.406))
+            
+           %%%~~~ Map(coordinateRegion: $mapRegion)
+            
+            
+ %//Do you still like commenting?
+  %      }
+   %     .padding()
+    %}
+%}
+
+%The command line 57 is discussed
