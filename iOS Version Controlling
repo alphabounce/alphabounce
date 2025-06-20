@@ -3,7 +3,7 @@
 %`.onChange' is the command line that has made us change the iOS 17 to iOS 16.4 for our built because the command is deprecated in iOS17.
 % TeX commenting criterion for typing the commented section is used.
 % Filtration and unique identificaiton (related to the objects present in the user interface) both can be directly completed through the '.onChange' command.
-% The '.onChange' command is helpful in redefining the variables already used in the syntax and addition in the defined variable is also possible through the + symbol.
+% The '.onChange' command is helpful in redefining the variables already used in the syntax and the addition in the defined variable is also possible through the + symbol.
 
 %The command 'init(coordinateRegion::interactionModes:showsUserLocation:userTrackingMode:)' and its bounded value (by the $ symbol in the argument) of the command 
 % 'Map (coordinateRegion:$mapRegion) can be replaced by using the other Map initializers that take the 'MapContentBuilder' construct.
@@ -61,3 +61,9 @@
 %}
 
 %The command line 57 is discussed.
+
+
+
+%The command lines 57 must have been a different command line (not the same if the line numbers of GitHub are used). The continuation did not happen. ONe thing
+%that is impressive about Github is its ability to identify the syntax of the most of the computer langugages.
+%We like commenting sometimes.
